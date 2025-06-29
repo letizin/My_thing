@@ -20,6 +20,48 @@
 + 데이터 저장 : 파일 시스템을 이용한 객체 직렬화
 + 주요 패턴 : DAO 패턴을 적용하여 데이터 로직 분석
 
+## 프로젝트 구조
+
+<pre>
+:포장: src
+ ┣ :파일_폴더: app
+ ┃ ┣ :글씨가_쓰여진_페이지: MyThinkApp.java
+ ┃ ┗ :글씨가_쓰여진_페이지: DesignApp.java
+ ┣ :파일_폴더: design
+ ┃ ┣ :글씨가_쓰여진_페이지: DesignDAO.java
+ ┃ ┣ :글씨가_쓰여진_페이지: DesignVO.java
+ ┃ ┣ :글씨가_쓰여진_페이지: DesignService.java
+ ┃ ┣ :글씨가_쓰여진_페이지: HashMapDesignDAO.java
+ ┃ ┣ :글씨가_쓰여진_페이지: NJDesignService.java
+ ┃ ┣ :글씨가_쓰여진_페이지: ListDesignDAO.java
+ ┃ ┗ :파일_폴더: file
+ ┃   ┣ :글씨가_쓰여진_페이지: FileDesignDB.java
+ ┃   ┣ :글씨가_쓰여진_페이지: ObjFileHashMapDesignDAO.java
+ ┃   ┗ :글씨가_쓰여진_페이지: TextFileHashMapDesignDAO.java
+ ┣ :파일_폴더: member
+ ┃ ┣ :글씨가_쓰여진_페이지: FileMemberDB.java
+ ┃ ┣ :글씨가_쓰여진_페이지: HashMapMemberDAO.java
+ ┃ ┣ :글씨가_쓰여진_페이지: NJMemberService.java
+ ┃ ┣ :글씨가_쓰여진_페이지: MemberVO.java
+ ┃ ┣ :글씨가_쓰여진_페이지: MemberService.java
+ ┃ ┣ :글씨가_쓰여진_페이지: ObjFileHashMapMemberDAO.java 
+ ┃ ┣ :글씨가_쓰여진_페이지: MemberDAO.java
+ ┣ :파일_폴더: order
+ ┃ ┣ :글씨가_쓰여진_페이지: ObjFileHashMapOrderDAO.java
+ ┃ ┣ :글씨가_쓰여진_페이지: OrderItemVO.java
+ ┃ ┣ :글씨가_쓰여진_페이지: OrderDAO.java  
+ ┃ ┣ :글씨가_쓰여진_페이지: OrderService.java
+ ┃ ┣ :글씨가_쓰여진_페이지: OrderServiceImpl.java
+ ┃ ┣ :글씨가_쓰여진_페이지: OrderVO.java
+ ┣ :파일_폴더: cart
+ ┃ ┣ :글씨가_쓰여진_페이지: CartItemVO.java
+ ┃ ┣ :글씨가_쓰여진_페이지: CartDAO.java  
+ ┃ ┣ :글씨가_쓰여진_페이지: CartService.java
+ ┃ ┣ :글씨가_쓰여진_페이지: CartServiceImpl.java
+ ┃ ┣ :글씨가_쓰여진_페이지: CartVO.java
+</pre>
+
+
 ## 요구사항 명세서
 ![요구사항 명세서](https://github.com/letizin/My_thing/blob/main/RequestForProposal.png)
 ## 클래스 다이어그램
@@ -28,10 +70,20 @@
 ![액티비티 이미지](https://github.com/letizin/My_thing/blob/main/Activity.png)
 ## 코드리뷰
 ![코드리뷰](https://github.com/letizin/My_thing/blob/main/%EC%BD%94%EB%93%9C%EB%A6%AC%EB%B7%B0.png)
+
 ## 시연 영상
-https://youtube.com/shorts/mSHIyNiM_FM?feature=share
-https://youtube.com/shorts/-7b1N9T1HbM
-https://youtu.be/_y8PqG0SAvw
-https://youtu.be/d3BoblHgva0
-https://youtube.com/shorts/6u1XazNfS2Y
-https://youtube.com/shorts/fCTIHTdQ1ZQ
+### 로그인 시연
+[시연 영상](https://youtube.com/shorts/mSHIyNiM_FM?feature=share)
+### 디자인 시연
+[시연 영상](https://youtube.com/shorts/-7b1N9T1HbM)
+### 장바구니, 주문 시연
+[시연 영상](https://youtube.com/shorts/6u1XazNfS2Y)
+### 회원 정보 변경 시연
+[시연 영상](https://www.youtube.com/watch?v=d3BoblHgva0)
+### 어드민 시연
+[시연 영상](https://youtube.com/shorts/fCTIHTdQ1ZQ)
+
+
+
+
+
