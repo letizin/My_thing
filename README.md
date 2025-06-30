@@ -63,13 +63,26 @@
 
 
 ## 요구사항 명세서
-![요구사항 명세서](https://github.com/letizin/My_thing/blob/main/RequestForProposal.png)
+![요구사항 명세서 유저](https://github.com/letizin/My_thing/blob/main/image/user.png)
+
+![요구사항 명세서 디자인](https://github.com/letizin/My_thing/blob/main/image/design.png)
+
+![요구사항 명세서 카트](https://github.com/letizin/My_thing/blob/main/image/cart.png)
+
+![요구사항 명세서 주문](https://github.com/letizin/My_thing/blob/main/image/order.png)
 ## 클래스 다이어그램
-![클래스 이미지](https://github.com/letizin/My_thing/blob/main/class.PNG)
-## 액티비티 다이어그램
-![액티비티 이미지](https://github.com/letizin/My_thing/blob/main/Activity.png)
+![클래스 이미지 디자인](https://github.com/letizin/My_thing/blob/main/image/%EB%94%94%EC%9E%90%EC%9D%B8.PNG)
+
+![클래스 이미지 유저](https://github.com/letizin/My_thing/blob/main/image/%EB%A9%A4%EB%B2%84.PNG)
+
+![클래스 이미지 카트](https://github.com/letizin/My_thing/blob/main/image/%EC%B9%B4%ED%8A%B8.PNG)
+
+![클래스 이미지 주뮨](https://github.com/letizin/My_thing/blob/main/image/%EC%A3%BC%EB%AC%B8.PNG)
+
+![클래스 이미지 메인](https://github.com/letizin/My_thing/blob/main/image/%EB%A9%94%EC%9D%B8.PNG)
+
 ## 코드리뷰
-![코드리뷰](https://github.com/letizin/My_thing/blob/main/%EC%BD%94%EB%93%9C%EB%A6%AC%EB%B7%B0.png)
+![코드리뷰](https://github.com/letizin/My_thing/blob/main/image/%EC%BD%94%EB%93%9C%EB%A6%AC%EB%B7%B0.png)
 
 ## 시연 영상
 ### 로그인 시연
